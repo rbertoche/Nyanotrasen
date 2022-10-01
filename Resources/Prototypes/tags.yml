@@ -202,6 +202,9 @@
   id: Flashlight
 
 - type: Tag
+  id: FloorTile
+
+- type: Tag
   id: Flower
 
 - type: Tag
@@ -339,6 +342,9 @@
   id: Mop
 
 - type: Tag
+  id: NoAction
+
+- type: Tag
   id: NoSpinOnThrow
 
 - type: Tag
@@ -425,6 +431,9 @@
 
 - type: Tag
   id: Sheet
+
+- type: Tag
+  id: SheetSteel
 
 - type: Tag
   id: ShellShotgun

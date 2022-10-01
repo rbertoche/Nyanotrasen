@@ -1,17 +1,21 @@
 - type: job
   id: Chaplain
-  name: job-name-chaplain
-  playTimeTracker: JobChaplain
+  name: "cleric"
   startingGear: ChaplainGear
+  playTimeTracker: JobChaplain
   icon: "Chaplain"
-  supervisors: job-supervisors-hop
+  supervisors: "the mystagogue"
   access:
   - Chapel
-  - Maintenance
+  - Research
   special:
   - !type:AddComponentSpecial
     components:
     - type: BibleUser #Lets them heal with bibles
+  - !type:AddComponentSpecial
+    components:
+    - type: PsionicBonusChance
+      multiplier: 3
 
 - type: startingGear
   id: ChaplainGear
@@ -20,7 +24,7 @@
     back: ClothingBackpackChaplainFilled
     shoes: ClothingShoesColorBlack
     id: ChaplainPDA
-    ears: ClothingHeadsetService
+    ears: ClothingHeadsetScience
   innerclothingskirt: ClothingUniformJumpskirtChaplain
   satchel: ClothingBackpackSatchelChaplainFilled
   duffelbag: ClothingBackpackDuffelChaplainFilled

@@ -104,10 +104,10 @@ namespace Content.Server.Connection
             if (_cfg.GetCVar(CCVars.PanicBunkerEnabled))
             {
                 var record = await _dbManager.GetPlayerRecordByUserId(userId);
+                // If they have no record OR the record is both under the minimum age and not whitelisted, reject
                 if ((record is null ||
-                    record.FirstSeenTime.CompareTo(DateTimeOffset.Now - TimeSpan.FromMinutes(_cfg.GetCVar(CCVars.PanicBunkerMinAccountAge))) < 0)
-                    && !await _db.GetWhitelistStatusAsync(userId)
-                    )
+                    (record.FirstSeenTime.CompareTo(DateTimeOffset.Now - TimeSpan.FromMinutes(_cfg.GetCVar(CCVars.PanicBunkerMinAccountAge))) < 0)
+                    && !await _db.GetWhitelistStatusAsync(userId)))
                 {
                     return (ConnectionDenyReason.Panic, Loc.GetString("panic-bunker-account-denied"), null);
                 }
@@ -128,11 +128,13 @@ namespace Content.Server.Connection
                 return (ConnectionDenyReason.Ban, firstBan.DisconnectMessage, bans);
             }
 
+            var minPlayers = _cfg.GetCVar(CCVars.WhitelistMinPlayers);
             if (_cfg.GetCVar(CCVars.WhitelistEnabled)
+                && _plyMgr.PlayerCount >= minPlayers
                 && await _db.GetWhitelistStatusAsync(userId) == false
                 && adminData is null)
             {
-                return (ConnectionDenyReason.Whitelist, Loc.GetString(_cfg.GetCVar(CCVars.WhitelistReason)), null);
+                return (ConnectionDenyReason.Whitelist, Loc.GetString("whitelist-not-whitelisted", ("num", minPlayers)), null);
             }
 
             return null;

@@ -134,7 +134,6 @@
   innerclothingskirt: ClothingUniformJumpskirtOperative
   satchel: ClothingBackpackDuffelSyndicateOperative
   duffelbag: ClothingBackpackDuffelSyndicateOperative
-
 - type: startingGear
   id: SyndicateOperativeMedicFull
   equipment:

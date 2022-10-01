@@ -110,4 +110,5 @@
     - state: icon-unlit
       shader: unshaded
   - type: Storage
-    capacity: 9999
+    capacity: 5000
+  - type: OfHolding

@@ -50,6 +50,7 @@
   - type: SentienceTarget
     flavorKind: corgi
   - type: Puller
+  - type: DogVision
   - type: MobPrice
     price: 200
 
@@ -121,6 +122,7 @@
     heatDamage:
       types:
         Heat : 1 #per second, scales with temperature & other constants
+  - type: Dispellable
 
 - type: entity
   name: Ian
@@ -151,7 +153,6 @@
     spawned:
     - id: FoodMeatCorgi
       amount: 2
-
 - type: entity
   name: Old Ian
   parent: MobCorgi
@@ -600,6 +601,7 @@
     attributes:
       proper: true
       gender: male
+  - type: DogVision
 
 - type: entity
   name: Paperwork
@@ -683,3 +685,5 @@
     attributes:
       proper: true
       gender: male
+  - type: DogVision
+

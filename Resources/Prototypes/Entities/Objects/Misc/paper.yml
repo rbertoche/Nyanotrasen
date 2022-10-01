@@ -16,6 +16,7 @@
       map: ["enum.PaperVisualLayers.Stamp"]
       visible: false
   - type: Paper
+    ContentSize: 2000
   - type: ActivatableUI
     key: enum.PaperUiKey.Key
   - type: UserInterface
@@ -114,7 +115,6 @@
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
     state: pen_cap
-
 - type: entity
   name: hop's fountain pen
   parent: Pen
@@ -124,7 +124,6 @@
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
     state: pen_hop
-
 - type: entity
   id: BoxFolderBase
   parent: BoxBase
@@ -292,7 +291,7 @@
     state: stamp-cent
 
 - type: entity
-  name: chaplain's rubber stamp
+  name: cleric's rubber stamp
   parent: RubberStampMime
   id: RubberStampChaplain
   components:
@@ -388,7 +387,7 @@
     state: stamp-qm
 
 - type: entity
-  name: research director's rubber stamp
+  name: mystagogue's rubber stamp
   parent: RubberStampMime
   id: RubberStampRd
   components:

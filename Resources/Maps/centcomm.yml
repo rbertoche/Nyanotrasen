@@ -25,8 +25,8 @@ tilemap:
   18: FloorShuttleRed
   19: FloorShuttleWhite
   20: FloorAsteroidCoarseSand0
-  21: FloorAsteroidCoarseSand1
-  22: FloorAsteroidCoarseSand2
+  21: floor_asteroid_coarse_sand1
+  22: floor_asteroid_coarse_sand2
   23: FloorAsteroidCoarseSandDug
   24: FloorAsteroidSand
   25: FloorAsteroidTile
@@ -22036,7 +22036,7 @@ entities:
     parent: 55
     type: Transform
 - uid: 2562
-  type: AirlockChemistryLocked
+  type: AirlockMedicalLocked
   components:
   - pos: 22.5,37.5
     parent: 55
@@ -24229,6 +24229,21 @@ entities:
   - pos: 19.5,38.5
     parent: 55
     type: Transform
+  - containers:
+    - machine_parts
+    - machine_board
+    type: Construction
+  - containers:
+      ChemMaster-beaker: !type:ContainerSlot {}
+      machine_board: !type:Container
+        ents: []
+      machine_parts: !type:Container
+        ents: []
+    type: ContainerContainer
+  - solutions:
+      buffer:
+        reagents: []
+    type: SolutionContainerManager
 - uid: 2848
   type: DrinkWhiskeyGlass
   components:
@@ -24492,6 +24507,10 @@ entities:
   - pos: 43.5,38.5
     parent: 55
     type: Transform
+  - containers:
+      microwave_entity_container: !type:Container
+        ents: []
+    type: ContainerContainer
 - uid: 2881
   type: KitchenReagentGrinder
   components:
@@ -25906,7 +25925,7 @@ entities:
     parent: 55
     type: Transform
 - uid: 3065
-  type: BaseResearchAndDevelopmentPointSource
+  type: GlimmerProber
   components:
   - pos: 32.5,55.5
     parent: 55

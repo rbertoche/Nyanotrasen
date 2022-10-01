@@ -5,7 +5,6 @@
   components:
   - type: StorageFill
     contents:
-      - id: ClothingNeckCloakQm
       - id: ClothingHeadsetCargo
       - id: PlushieLizard
         prob: 0.1
@@ -21,7 +20,6 @@
       - id: CargoShuttleConsoleCircuitboard
       - id: CigPackGreen
         prob: 0.50
-      - id: DoorRemoteCargo
       - id: RubberStampQm
 
 - type: entity
@@ -85,6 +83,7 @@
       - id: DoorRemoteService
       - id: ClothingNeckGoldmedal
       - id: RubberStampHop
+      - id: Telebaton
 
 - type: entity
   id: LockerChiefEngineerFilled
@@ -153,6 +152,7 @@
         prob: 0.1
       - id: DoorRemoteResearch
       - id: RubberStampRd
+      - id: Telebaton
 
 - type: entity
   id: LockerHeadOfSecurityFilled
@@ -194,3 +194,4 @@
       - id: RubberStampHos
       - id: SecurityTechFabCircuitboard
       - id: JetpackSecurityFilled
+      - id: HyperlinkBookSpaceLaw

@@ -29,7 +29,7 @@ reagent-name-lexorin = lexorin
 reagent-desc-lexorin = Interrompe temporariamente a respiração e causa danos nos tecidos. Grandes doses são fatais e farão com que as pessoas desmaiem muito rapidamente. Dexalin e Dexalin Plus irão removê-lo, no entanto.
 
 reagent-name-mindbreaker-toxin = mindbreaker toxin
-reagent-desc-mindbreaker-toxin = Um potente composto alucinógeno que é ilegal sob a lei espacial. Anteriormente conhecido como LSD.
+reagent-desc-mindbreaker-toxin = Um potente composto danoso ao cérebro que pode remover habilidades psiônicas.
 
 reagent-name-histamine = histamine
 reagent-desc-histamine = Os efeitos da histamina tornam-se mais perigosos dependendo da quantidade de dosagem. Eles variam de levemente irritantes a incrivelmente letais.

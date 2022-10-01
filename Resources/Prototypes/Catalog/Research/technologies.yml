@@ -11,6 +11,10 @@
     sprite: Structures/Machines/server.rsi
     state: server-on
   requiredPoints: 2500
+  unlockedRecipes:
+    - DrinkMug
+    - DrinkMugMetal
+    - DrinkGlass
 
 # Cleaning Technology Tree
 
@@ -28,7 +32,8 @@
     - Bucket
     - MopItem
     - SprayBottle
-    - BodyBag
+    - MopAdvanced
+    - LightReplacer
 
 # Biological Technology Tree
 
@@ -148,8 +153,59 @@
 
 # Security Technology Tree
 
-# Empty, as all the security tech is now available
-# roundstart in the security techfab.
+- type: technology
+  name: "security technology"
+  id: SecurityTechnology
+  description: Beginning of the long hard road to exosuits.
+  icon:
+    sprite: Objects/Weapons/Melee/stunbaton.rsi
+    state: stunbaton_off
+  requiredPoints: 10000
+  requiredTechnologies:
+    - BasicResearch
+  unlockedRecipes:
+    - Flash
+    - Handcuffs
+    - Stunbaton
+    - FlashPayload
+    - InsulativeHeadcage
+
+- type: technology
+  name: "non-lethal technology"
+  id: NonLethalTechnology
+  description: For the softer approach to detaining.
+  icon:
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/shotgun_shell.rsi
+    state: beanbag
+  requiredPoints: 8000
+  requiredTechnologies:
+     - SecurityTechnology
+  unlockedRecipes:
+    - ShellShotgunBeanbag
+    - ShellTranquilizer
+    - CartridgePistolRubber
+    - CartridgeMagnumRubber
+    - CartridgeCaselessRifleRubber
+    - CartridgeLightRifleRubber
+    - CartridgeRifleRubber
+    - ShockCollar
+
+- type: technology
+  name: "ballistic technology"
+  id: BallisticTechnology
+  description: Just a fancy term for guns.
+  icon:
+    sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
+    state: icon
+  requiredPoints: 15000
+  requiredTechnologies:
+     - SecurityTechnology
+  unlockedRecipes:
+    - CartridgePistol
+    - ShellShotgun
+    - ShellShotgunFlare
+    - CartridgeLightRifle
+    - CartridgeMagnum
 
 #- type: technology
 #   name: "ballistic technology"
@@ -223,7 +279,6 @@
   unlockedRecipes:
     - AppraisalTool
     - ConveyorBeltAssembly
-    - RCD
     - RCDAmmo
     - FlashlightLantern
     - FireExtinguisher
@@ -258,6 +313,7 @@
     - SheetPlastic
     - SheetRGlass
     - SheetGlass1
+    - BluespaceCrystal
 
 - type: technology
   name: technologies-advanced-atmospherics-technology
@@ -406,6 +462,37 @@
     - MicroLaserStockPart
     - MicroManipulatorStockPart
     - ScanningModuleStockPart
+    - ProximitySensor
+
+- type: technology
+  name: "robotics technology"
+  id: RoboticsTechnology
+  description: Robot parts.
+  icon:
+    sprite: Mobs/Silicon/Bots/honkbot.rsi
+    state: honkbot
+  requiredPoints: 10000
+  requiredTechnologies:
+    - CompactPowerTechnology
+  unlockedRecipes:
+    - ProximitySensor
+    - LeftArmBorg
+    - RightArmBorg
+
+- type: technology
+  name: "robotics technology"
+  id: RoboticsTechnology
+  description: Robot parts.
+  icon:
+    sprite: Mobs/Silicon/Bots/honkbot.rsi
+    state: honkbot
+  requiredPoints: 10000
+  requiredTechnologies:
+    - CompactPowerTechnology
+  unlockedRecipes:
+    - ProximitySensor
+    - LeftArmBorg
+    - RightArmBorg
 
 - type: technology
   name: technologies-robotics-technology

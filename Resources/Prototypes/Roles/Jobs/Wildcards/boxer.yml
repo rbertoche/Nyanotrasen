@@ -3,11 +3,8 @@
   name: "boxer"
   playTimeTracker: JobBoxer
   startingGear: BoxerGear
-  setPreference: false
   icon: "Boxer"
   supervisors: "the head of personnel"
-  access:
-  - Service
   special:
   - !type:AddComponentSpecial
     components:

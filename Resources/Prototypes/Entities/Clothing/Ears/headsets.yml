@@ -22,7 +22,7 @@
   - type: Headset
     channels:
     - Common
-    - Supply
+    - Service
   - type: Sprite
     sprite: Clothing/Ears/Headsets/cargo.rsi
   - type: Clothing
@@ -32,13 +32,12 @@
   parent: ClothingHeadset
   id: ClothingHeadsetQM
   name: qm headset
-  description: A headset used by the quartermaster.
+  description: A headset used by quartermasters.
   components:
   - type: Headset
     channels:
-    - Command
     - Common
-    - Supply
+    - Service
   - type: Sprite
     sprite: Clothing/Ears/Headsets/cargo.rsi
   - type: Clothing
@@ -60,7 +59,6 @@
     - Science
     - Security
     - Service
-    - Supply
   - type: Sprite
     sprite: Clothing/Ears/Headsets/centcom.rsi
   - type: Clothing
@@ -81,7 +79,6 @@
     - Science
     - Security
     - Service
-    - Supply
   - type: Sprite
     sprite: Clothing/Ears/Headsets/command.rsi
   - type: Clothing
