@@ -182,7 +182,6 @@
       - Hemostat
       - Beaker
       - LargeBeaker
-      - CryostasisBeaker
       - Dropper
       - Syringe
       - PillCanister
@@ -209,12 +208,8 @@
       - MopItem
       - SprayBottle
       - FireExtinguisher
-      - KitchenKnife
-      - ButchCleaver
       - FlashlightLantern
       - TimerTrigger
-      - ChemicalPayload
-      - FlashPayload
       - Signaller
       - SignalTrigger
       - PowerCellSmall
@@ -324,19 +319,35 @@
       - FlashPayload
       - Handcuffs
       - Stunbaton
-      - RiotShield
+      - InsulativeHeadcage
+      - ShockCollar
       - CartridgePistol
+      - ShellShotgun
+      - CartridgeLightRifle
       - CartridgeMagnum
       - CartridgePistolRubber
       - CartridgeMagnumRubber
       - ShellShotgun
       - ShellShotgunBeanbag
       - ShellShotgunFlare
-      - ShellTranquilizer
       - CartridgeLightRifle
       - CartridgeCaselessRifleRubber
       - CartridgeLightRifleRubber
-      - CartridgeRifleRubber
+      - CartridgeRifleRubber  #Everything below this is shared with other lathes
+      - FlashlightLantern
+      - Bucket
+      - MopItem
+      - SprayBottle
+      - FireExtinguisher
+      - LightTube
+      - LightBulb
+      - SheetSteel
+      - SheetGlass1
+      - SheetRGlass
+      - SheetPlastic
+      - CableStack
+      - CableMVStack
+      - CableHVStack
   - type: MaterialStorage
     whitelist:
       tags:
@@ -380,14 +391,28 @@
       - Drill
       - Saw
       - Hemostat
+      - ChemicalPayload
       - Beaker
       - LargeBeaker
       - CryostasisBeaker
       - Dropper
       - Syringe
-      - PillCanister
       - BodyBag
-      - ChemistryEmptyBottle01
+      - PillCanister #Everything below this is shared with other lathes
+      - FlashlightLantern
+      - Bucket
+      - MopItem
+      - SprayBottle
+      - FireExtinguisher
+      - LightTube
+      - LightBulb
+      - SheetSteel
+      - SheetGlass1
+      - SheetRGlass
+      - SheetPlastic
+      - CableStack
+      - CableMVStack
+      - CableHVStack
   - type: Machine
     board: MedicalTechFabCircuitboard
 

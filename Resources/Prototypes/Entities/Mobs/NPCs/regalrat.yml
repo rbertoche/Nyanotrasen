@@ -1,5 +1,5 @@
 - type: entity
-  name: Rat King
+  name: Moustagogue
   id: MobRatKing
   parent: SimpleMobBase
   description: He's da rat. He make da roolz.

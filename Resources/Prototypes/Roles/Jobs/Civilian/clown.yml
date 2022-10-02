@@ -7,7 +7,7 @@
   supervisors: job-supervisors-hop
   access:
   - Theatre
-  - Maintenance
+  - Service
   special:
   - !type:AddComponentSpecial
     components:

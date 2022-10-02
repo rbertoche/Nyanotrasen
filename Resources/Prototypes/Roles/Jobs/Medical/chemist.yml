@@ -7,12 +7,13 @@
       department: Medical
       time: 1800
   startingGear: ChemistGear
+  setPreference: false
   icon: "Chemist"
   supervisors: job-supervisors-cmo
+  antagAdvantage: 2 # Chem access
   access:
   - Medical
   - Chemistry
-  - Maintenance
 
 - type: startingGear
   id: ChemistGear

@@ -23,6 +23,23 @@ Este é um servidor 'faça seu trabalho'. Isso significa que é importante fazer
     - Tentar intencionalmente rebaixar os outros devido à sua raça, sexo, gênero, orientação ou afins não é tolerado.
     - Em uma estação cheia de estranhos e colegas de trabalho alienígenas, o comentário ocasional pode ser tolerado. Não interprete um personagem "racista" ou discrimine ninguém.
 
+[color=#a4885c]2.[/color] Prisoners who haven't killed anyone shouldn't be brigged longer than 12 minutes, unless they were attempting to kill a head of staff.
+
+[color=#a4885c]3.[/color] Prisoners of capital crimes have a right to a trial. We have lawyers and forensic analysts, use them
+    - Trials should include a judge, prosecutor, defendant, and jury.
+    - We don't expect you to be in expert in real life court proceedings, the main measure to determine if a trial was good enough was that everyone put roleplaying effort in.
+
+[color=#a4885c]4.[/color] All uplink items are the same class of contraband as armory weapons, so they should be secured there and treated with the same processes.
+
+[color=#a4885c]5.[/color] Mantises should do their best to identify the station's psychics, and keep their superiors informed.
+    - At the discretion of the Mystagogue or Captain, [color=#ff0000]the mantis and only the mantis[/color] may request a warrant to kill or mindbreak problematic psychics.
+    - The warrant needs to include which specific psychic power the person is accused of having, and whether it's for mindbreaking, killing, or both.
+    - Mystagogue and Captain have complete discretion to approve or deny the warrant, even with irrefutable evidence that the person is psychic. In fact, it's in everyone's best interest that the majority of warrants are denied.
+    - Mindbreaker toxin and cloning both remove psionic powers, which are good options for people that are either cooperative or otherwise not dangerous without psychic powers.
+
+AI RULES
+[color=#a4885c]1.[/color] Asimov laws mean don't hurt humans, period, no matter what. Do not hurt non-human crew, either, except in extreme circumstances or self preservation.
+
 [color=#a4885c]7.[/color] Se comunicar fora do jogo não é permitido.
 
 [color=#a4885c]8.[/color] Após ser clonado ou virar um fantasma, você [color=#ff0000]esquece sua vida anterior[/color].

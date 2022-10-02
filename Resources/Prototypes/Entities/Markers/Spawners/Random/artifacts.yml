@@ -19,6 +19,7 @@
         - RadiateArtifact
         - GasArtifact
         - DiseaseArtifact
+        - PsionicArtifact
       chance: 1
 
 - type: entity

@@ -7,6 +7,8 @@ using Content.Server.DoAfter;
 using Content.Server.Hands.Components;
 using Content.Server.Popups;
 using Content.Server.Power.Components;
+using Content.Server.Lamiae;
+using Content.Server.Carrying;
 using Content.Shared.ActionBlocker;
 using Content.Shared.Atmos;
 using Content.Shared.Construction.Components;
@@ -460,6 +462,11 @@ namespace Content.Server.Disposal.Unit.EntitySystems
                 return false;
             }
 
+            // holy shit I hate disposals I tried basically every other way of doing this
+            // if this shit was ECS and actually raised some events then the carriable would be fine to insert
+            if (HasComp<CarryingComponent>(toInsertId) || HasComp<BeingCarriedComponent>(toInsertId))
+                return false;
+
             if (!CanInsert(unit, toInsertId))
                 return false;
 
@@ -504,6 +511,12 @@ namespace Content.Server.Disposal.Unit.EntitySystems
             {
                 Disengage(component);
                 return false;
+            }
+
+            foreach (var entity in component.Container.ContainedEntities)
+            {
+                if (HasComp<LamiaComponent>(entity))
+                    return false;
             }
 
             var xform = Transform(component.Owner);

@@ -1,0 +1,37 @@
+- type: gameRule
+  id: NoosphericStorm
+  config:
+    !type:StationEventRuleConfiguration
+    startAnnouncement: station-event-noospheric-storm-announcement
+    startAudio:
+      path: /Audio/Announcements/attention.ogg
+    id: NoosphericStorm
+    weight: 5
+    endAfter: 1
+    earliestStart: 15
+    maxOccurrences: 2
+
+- type: gameRule
+  id: NoosphericZap
+  config:
+    !type:GlimmerEventRuleConfiguration
+    id: NoosphericZap
+
+- type: gameRule
+  id: PsionicCatGotYourTongue
+  config:
+    !type:GlimmerEventRuleConfiguration
+    id: PsionicCatGotYourTongue
+    minimumGlimmer: 200
+    maximumGlimmer: 500
+    glimmerBurnLower: 10
+    glimmerBurnUpper: 40
+
+- type: gameRule
+  id: MassMindSwap
+  config:
+    !type:GlimmerEventRuleConfiguration
+    id: MassMindSwap
+    minimumGlimmer: 900
+    glimmerBurnLower: 70
+    glimmerBurnUpper: 150

@@ -39,6 +39,11 @@ job-name-ertsecurity = segurança da ERT
 job-name-ertmedic = médico da ERT
 job-name-ertjanitor = zelador da ERT
 
+
+#Nyano
+job-name-mystagogue = mystagogue
+job-name-mantis = forensic mantis
+
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = técnico atmosférico
 JobSalvageSpecialist = especialista em salvamento

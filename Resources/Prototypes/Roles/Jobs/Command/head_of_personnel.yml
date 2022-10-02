@@ -13,7 +13,7 @@
       department: Security
       time: 3600
     - !type:OverallPlaytimeRequirement
-      time: 108000
+      time: 54000
   weight: 20
   startingGear: HoPGear
   icon: "HeadOfPersonnel"
@@ -25,7 +25,7 @@
   - HeadOfPersonnel
   - Brig
   - Service
-  - Quartermaster
+  - Mail
   - Salvage
   - Cargo
   - Maintenance
@@ -34,7 +34,13 @@
   - Kitchen
   - Chapel
   - Hydroponics
+  - Detective
   # I mean they'll give themselves the rest of the access levels *anyways*.
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: PsionicBonusChance
+      flatBonus: 0.025
 
 - type: startingGear
   id: HoPGear

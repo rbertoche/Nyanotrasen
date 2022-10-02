@@ -79,6 +79,7 @@
         - badfeeling-artifact-drastic-4
         - badfeeling-artifact-drastic-5
         - badfeeling-artifact-drastic-6
+    - type: Psionic
 
 - type: entity
   parent: BaseXenoArtifact
@@ -108,7 +109,7 @@
         - goodfeeling-artifact-drastic-4
         - goodfeeling-artifact-drastic-5
         - goodfeeling-artifact-drastic-6
-
+    - type: Psionic
 # Spawners
 - type: entity
   parent: BaseXenoArtifact
@@ -120,6 +121,9 @@
       possiblePrototypes:
         - MobCarpHolo
         - MobCarpMagic
+        - MobBearSpace
+        - ResearchDisk5000
+        - MaterialBluespace
 
 - type: entity
   parent: BaseXenoArtifact
@@ -133,6 +137,7 @@
         - FoodPacketSemkiTrash
         - RandomInstruments
         - ToySpawner
+        - ResearchDisk
 
 - type: entity
   parent: BaseXenoArtifact

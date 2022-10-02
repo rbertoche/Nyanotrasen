@@ -1,0 +1,34 @@
+- type: latheRecipe
+  id: ShockCollar
+  icon:
+    sprite: Nyanotrasen/Clothing/Neck/Misc/shock.rsi
+    state: icon
+  result: ShockCollar
+  completetime: 2
+  materials:
+    Steel: 300
+    Glass: 100
+    Plastic: 100
+
+- type: latheRecipe
+  id: Decloner
+  icon:
+    sprite: Nyanotrasen/Objects/Weapons/Guns/Battery/decloner.rsi
+    state: icon
+  result: LockboxDecloner
+  completetime: 4
+  materials:
+    Steel: 400
+    Glass: 400
+    Plastic: 400
+
+- type: latheRecipe
+  id: InsulativeHeadcage
+  icon:
+    sprite: Nyanotrasen/Clothing/Head/Hats/cage.rsi
+    state: icon
+  result: ClothingHeadCage
+  completetime: 4
+  materials:
+    Steel: 400
+    Bluespace: 20

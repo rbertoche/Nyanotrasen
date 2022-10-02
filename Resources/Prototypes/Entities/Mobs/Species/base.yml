@@ -81,6 +81,8 @@
       - ForcedSleep
       - TemporaryBlindness
       - Pacified
+      - PsionicsDisabled
+      - PsionicallyInsulated
   - type: DiseaseCarrier
   - type: Blindable
   # Other
@@ -275,7 +277,7 @@
   #  - type: Recyclable Turns out turning off recycler safeties without considering the instagib is a bad idea
   #    safe: false
   - type: Speech
-    speechSounds: Alto
+    speechSounds: Tenor
   - type: Vocal
   - type: Emoting
   - type: Grammar
@@ -287,6 +289,7 @@
     price: 1500 # Kidnapping a living person and selling them for cred is a good move.
     deathPenalty: 0.01 # However they really ought to be living and intact, otherwise they're worth 100x less.
   - type: Perishable
+  - type: CanEscapeInventory
 
 - type: entity
   save: false

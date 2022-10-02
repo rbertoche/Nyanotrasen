@@ -21,7 +21,7 @@
   - id: UraniumOre1
     prob: 0.0125
     orGroup: Asteroid
-    
+
 - type: entityLootTable
   id: MiningLootTableLowYield
   entries:

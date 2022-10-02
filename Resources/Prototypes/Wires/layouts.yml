@@ -35,7 +35,6 @@
   - !type:DoorTimingWireAction
   - !type:DoorSafetyWireAction
   dummyWires: 5
-
 - type: wireLayout
   id: Vending
   wires:

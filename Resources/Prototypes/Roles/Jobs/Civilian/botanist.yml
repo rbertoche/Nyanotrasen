@@ -7,7 +7,6 @@
   supervisors: job-supervisors-hop
   access:
   - Service
-  - Maintenance
   - Hydroponics
   extendedAccess:
   - Kitchen

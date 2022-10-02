@@ -127,7 +127,10 @@ public sealed class PrototypeSaveTest
         "ClothingHeadHatChef",
         "Bucket",
         "AirlockShuttle",
-        "AirlockGlassShuttle"
+        "AirlockGlassShuttle",
+        "EngineeringTechFab",
+        "MobObserverTelegnostic", // call me back when ghosts are fixed
+        "PoweredlightBlueInterior",
     };
 
     [Test]
