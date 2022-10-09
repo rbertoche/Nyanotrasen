@@ -438,7 +438,7 @@ entities:
     parent: 179
     type: Transform
 - uid: 58
-  type: GlimmerProber
+  type: BaseResearchAndDevelopmentPointSource
   components:
   - pos: 13.5,16.5
     parent: 179

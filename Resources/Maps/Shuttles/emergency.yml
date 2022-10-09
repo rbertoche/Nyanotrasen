@@ -294,11 +294,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 34
   type: PoweredlightLED
   components:
@@ -307,11 +302,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 35
   type: PoweredlightLED
   components:
@@ -320,11 +310,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 36
   type: PoweredlightLED
   components:
@@ -334,11 +319,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 37
   type: PoweredlightLED
   components:
@@ -348,11 +328,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 38
   type: PoweredlightLED
   components:
@@ -361,11 +336,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 39
   type: Poweredlight
   components:
@@ -375,11 +345,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 40
   type: Poweredlight
   components:
@@ -389,11 +354,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 41
   type: Poweredlight
   components:
@@ -403,11 +363,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 42
   type: Poweredlight
   components:
@@ -417,11 +372,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 43
   type: ChairPilotSeat
   components:
@@ -484,11 +434,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 52
   type: PoweredlightLED
   components:
@@ -498,11 +443,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 53
   type: PoweredlightLED
   components:
@@ -512,11 +452,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 54
   type: EmergencyLight
   components:
@@ -882,11 +817,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 110
   type: ChairPilotSeat
   components:
@@ -1055,11 +985,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 137
   type: Poweredlight
   components:
@@ -1069,11 +994,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 138
   type: Poweredlight
   components:
@@ -1083,11 +1003,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 139
   type: Poweredlight
   components:
@@ -1097,11 +1012,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 140
   type: EmergencyLight
   components:
@@ -1265,11 +1175,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 166
   type: Poweredlight
   components:
@@ -1278,11 +1183,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 167
   type: Poweredlight
   components:
@@ -1292,11 +1192,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 168
   type: Poweredlight
   components:
@@ -1306,11 +1201,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 169
   type: Poweredlight
   components:
@@ -1320,11 +1210,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 170
   type: Poweredlight
   components:
@@ -1333,11 +1218,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 171
   type: Poweredlight
   components:
@@ -1346,11 +1226,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 172
   type: ClothingMaskSterile
   components:
@@ -5133,7 +5008,6 @@ entities:
       - BulletImpassable
       - InteractImpassable
       - Opaque
-      mass: 100
     - shape: !type:PhysShapeCircle
         position: 0,-0.5
         radius: 0.2
@@ -5166,7 +5040,6 @@ entities:
       - BulletImpassable
       - InteractImpassable
       - Opaque
-      mass: 100
     - shape: !type:PhysShapeCircle
         position: 0,-0.5
         radius: 0.2
@@ -5199,7 +5072,6 @@ entities:
       - BulletImpassable
       - InteractImpassable
       - Opaque
-      mass: 100
     - shape: !type:PhysShapeCircle
         position: 0,-0.5
         radius: 0.2
@@ -5264,7 +5136,6 @@ entities:
       - BulletImpassable
       - InteractImpassable
       - Opaque
-      mass: 100
     - shape: !type:PhysShapeCircle
         position: 0,-0.5
         radius: 0.2
@@ -6184,11 +6055,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 912
   type: PoweredlightSodium
   components:
@@ -6198,11 +6064,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 914
   type: EmergencyLight
   components:
@@ -6258,11 +6119,6 @@ entities:
     type: Transform
   - powerLoad: 0
     type: ApcPowerReceiver
-  - inputs:
-      On: []
-      Off: []
-      Toggle: []
-    type: SignalReceiver
 - uid: 935
   type: CableApcExtension
   components:
