@@ -1,7 +1,7 @@
 - type: entity
   id: Web
   name: web
-  description: Spider web
+  description: The network of silken thread spun by a big spider.
   placement:
     mode: SnapgridCenter
   components:
@@ -13,6 +13,7 @@
     - type: Sprite
       sprite: EstacaoPirata/Objects/Misc/web.rsi
       state: web_1
+      drawdepth: Overdoors
       netsync: false
     - type: Appearance
     - type: Clickable
@@ -22,7 +23,7 @@
     - type: Fixtures
       fixtures:
       - hard: false
-        mass: 7
+        density: 7
         shape:
           !type:PhysShapeAabb
           bounds: "-0.5,-0.5,0.5,0.5"
@@ -55,19 +56,23 @@
       groups:
         Flammable: [Touch]
         Extinguish: [Touch]
-    - type: WebSlowContacts
-      walkSpeedModifier: 0.02
-      sprintSpeedModifier: 0.02
+    - type: SlowContacts
+      walkSpeedModifier: 0.03
+      sprintSpeedModifier: 0.03
+      ignoreWhitelist:
+        tags:
+          - Spider
 
 - type: entity
   id: Web2
   parent: Web
   name: web
-  description: Spider web
+  description: The network of silken thread spun by a big spider.
   placement:
     mode: SnapgridCenter
   components:
     - type: Sprite
       sprite: EstacaoPirata/Objects/Misc/web.rsi
       state: web_2
+      drawdepth: Overdoors
       netsync: false
